@@ -1,12 +1,19 @@
 This is the beginning of the IvanCode project (so named because of a similarity to the Ivanhoe Game 
 conceived by Jerome McGann and Johanna Drucker).
 
-In this project, we're going to try and reverse engineer three of the novels that we've read this semester.
+In this project, we're going to try and reverse engineer three of the novels that we've been reading this semester.
 
 In other words, our task is to treat these texts as software, and then produce the imaginary source code that, when
 compiled and executed, would produce the novel we read. 
 
 Think of these code documents as algorithmic Pierre Menards.
 
+Each of the directories in this repository represents a novel. I've created a .src document in each of these folders.
+Your task now is to collaboratively produce pseudocode. You are free to choose a specific language or to define basic
+syntactical paramaters for your language. You are also free to add other files (libraries, images) to your novel's
+directory. 
+
+Your goal here is to create imaginary software that "produces" the novel in question, so code which accounts
+for as many aspects of the novel as possible is going to be considered successful.
 
 
