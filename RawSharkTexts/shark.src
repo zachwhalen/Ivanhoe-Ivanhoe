@@ -1,0 +1,10 @@
+//Dramatis Personae
+ericSanderson = new Human
+ian = new Cat
+gavin = new Cat
+gavin.delete
+
+
+
+
+ericSanderson.forget

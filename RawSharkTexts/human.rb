@@ -1,6 +1,6 @@
 class Human
 
-  attr_accessor :mood, :hunger  #There's probly more for Humans than Cats
+  attr_accessor :mood, :hunger  #There's probly more for Humans than Cats, add attributes
 
   def speak(utterance)
     prints utterance
@@ -11,5 +11,6 @@ class Human
       understand(speech)
     end #Else, it is ignored
   end
+
 
 end
