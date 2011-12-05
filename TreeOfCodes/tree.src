@@ -13,7 +13,11 @@ character Father; //Creates the Mother and Father characters from the character 
 int main()
 {   //main is the function that holds the body of the work.  It calls other functions and does small-scale operations
 
-  ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
+  string text=ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
+  if (text="street of crocodiles"){
+      text="tree of codes"
+  }//goes through and replaces the phrase "street of crocodiles" with "tree of codes"
+      
   
 }
 
