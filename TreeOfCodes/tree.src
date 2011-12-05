@@ -13,8 +13,18 @@ character Father; //Creates the Mother and Father characters from the character 
 int main()
 {   //main is the function that holds the body of the work.  It calls other functions and does small-scale operations
 
-  ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
+
+ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
+  While (inFile){
+    String line=br.readLine();
+    if (line=="street of crocodiles" or line=="Street of Crocodiles"){
+      line="tree of codes"; //changes "street of crocodiles" to "tree of codes"
+    }
+    if (line=="Bruno Schulz"){
+      line="Jonathan Safran Foer"
+    }//changes the author's name
+  }
   
-}
+}//end of main
 
 
