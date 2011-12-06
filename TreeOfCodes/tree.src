@@ -3,10 +3,10 @@
 * Purpose: 
 * Last edited: 12/5/11
 */
-#import "streetofcrocodiles.h" //this the original text of Street of Crocodiles.
-#import "treeofcodes.h" //this the orriginal text of Tree of Codes.
-#import "highlighterandpen.h" //This is the class that allows user to edit a document
-#import "character.h" //This is the class that holds basic human character traits
+#import "streetofcrocodiles.txt" //this the original text of Street of Crocodiles.
+#import "treeofcodes.txt" //this the orriginal text of Tree of Codes.
+#import "highlighterandpen.txt" //This is the class that allows user to edit a document
+#import "character.txt" //This is the class that holds basic human character traits
 
 character Mother;
 character Father; //Creates the Mother and Father characters from the character class
