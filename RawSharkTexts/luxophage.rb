@@ -1,0 +1,4 @@
+class Luxophage < ConceptFish
+
+
+end
