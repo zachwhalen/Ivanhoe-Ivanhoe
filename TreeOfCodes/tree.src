@@ -3,13 +3,16 @@
 * Purpose: 
 * Last edited: 12/5/11
 */
-
+#import "treeofcrocodiles.h" //this the orriginal text of Tree of Crocodiles.
 #import "highlighterandpen.h" //This is the class that allows user to edit a document
 #import "character.h" //This is the class that holds basic human character traits
 
 character Mother;
 character Father; //Creates the Mother and Father characters from the character class
 
+var poetry=valueOfSelectWords //this establishes the subjective value of specific words within a text
+      if (streetofcrocdiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes
+        
 int main()
 {   //main is the function that holds the body of the work.  It calls other functions and does small-scale operations
 
@@ -22,7 +25,7 @@ ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
     }
     if (line=="Bruno Schulz"){
       line="Jonathan Safran Foer"
-    }//changes the author's name
+          }//changes the author's name
   }
   
 }//end of main
