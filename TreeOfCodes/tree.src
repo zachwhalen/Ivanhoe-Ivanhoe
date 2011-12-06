@@ -40,10 +40,13 @@ string confirm(string message){ //this function confirms the action of the user 
       cout >> message;
       string response = ""; //holds the response from the user
       cin << response;
-      if (response == "yes" || "Yes" || "YES" || "YeS" || "yES" || "YEs" || "yeS" || "yEs"){ //the "||" symbol basically means and/or, so if the message was "yes" OR "Yes", it's all gravy
+      for (i=0; i<response.length; i++){
+      response[i]=response.toLower[i];
+      }//puts response all in lower case so that the code is more concise and efficient
+      if (response == "yes"){ //the "||" symbol basically means and/or, so if the message was "yes" OR "Yes", it's all gravy
             cout >> "Beginning transformation...";
       }
-      if (reponse == "no" || "No" || "NO"){
+      if (reponse == "no"){
             cout >> "ABORT ABORT";
       }
       else {
