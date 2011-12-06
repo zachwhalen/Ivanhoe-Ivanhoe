@@ -25,9 +25,15 @@ Public{
   //returns true when the character is in the corner, and false when they're not
   bool isAngry() const;
   //used for when character is begging God at night
-  //used for when character is pleading to recocile with Mother
+  //returns when character is angry and false when they're not
   bool isWorried() const;
   //used when character has stopped going out
-  //used when character is feeling absentminded
+  //used when character is worried and false when they're not
+  bool isResentful() const;
+  //used when character reflects on Father's death
+  // used when character is resenful and false when they're not
+  bool isSobbing() const;
+  //used when character is pleading and begging
+  //used when character is sobbing and false when they're not
   
 }
