@@ -10,11 +10,11 @@
 
 character Mother;
 character Father; //Creates the Mother and Father characters from the character class
-
-var poetry=valueOfSelectWords //this establishes the subjective value of specific words within a text
-      if (streetofcrocdiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes
-
-confirm("Transform Street of Crocodiles into Tree of Codes?") //asks for confirmation of shift    
+string streetofcrocodiles = ifstream in("Streeofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
+var poetry=valueOfSelectWords; //this establishes the subjective value of specific words within a text
+      if (streetofcrocodiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes
+string message = "Transform Street of Crocodiles into Tree of Codes?";
+confirm(message); //asks for confirmation of shift    
 
 int main()
 {   //main is the function that holds the body of the work.  It calls other functions and does small-scale operations
@@ -36,6 +36,17 @@ ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
   
 }//end of main
 
-
-
-
+string confirm(string message){ //this function confirms the action of the user in converting SOC to TOC
+      cout >> message;
+      string response = ""; //holds the response from the user
+      cin << response;
+      if (response == "yes" || "Yes" || "YES" || "YeS" || "yES" || "YEs" || "yeS" || "yEs"){ //the "||" symbol basically means and/or, so if the message was "yes" OR "Yes", it's all gravy
+            cout >> "Beginning transformation...";
+      }
+      if (reponse == "no" || "No" || "NO"){
+            cout >> "ABORT ABORT";
+      }
+      else {
+            cout >> "Yes or No answers please";
+      }
+}
