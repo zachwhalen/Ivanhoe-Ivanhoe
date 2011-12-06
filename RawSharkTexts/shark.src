@@ -3,8 +3,10 @@ ericSanderson = new Human
 ian = new Cat
 gavin = new Cat
 gavin.delete
-
+ward = new Mycroft
 
 
 
 ericSanderson.forget
+
+
