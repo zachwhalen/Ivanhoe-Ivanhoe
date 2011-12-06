@@ -2,5 +2,5 @@
 * Keep all mother/fathers/children
 * Alone/darkness/empty
 * Keep a variable called poetic or flow or something that keeps track */
-*eyes/half (closed,naked,animal,shameless)/silence
-*shadows/anger
+* eyes/half (closed,naked,animal,shameless)/silence
+* shadows/anger
