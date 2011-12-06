@@ -10,6 +10,7 @@
 
 character Mother;
 character Father; //Creates the Mother and Father characters from the character class
+character Narrator; //creates the Narrator character
 string streetofcrocodiles = ifstream in("Streeofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
 var poetry=valueOfSelectWords; //this establishes the subjective value of specific words within a text
       if (streetofcrocodiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes
@@ -24,11 +25,11 @@ ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
   While (inFile){
     String line=br.readLine();
     if (line=="street of crocodiles" or line=="Street of Crocodiles"){
-      line="tree of codes"; //changes "street of crocodiles" to "tree of codes"
+      line="tree of codes"; //changes "street of crocodiles" to "tree of codes whenever it finds it"
     }
     if (line=="Bruno Schulz"){
       line="Jonathan Safran Foer"
-          }//changes the author's name
+          }//changes the author's name whenever it comes across it
   }
 
 
