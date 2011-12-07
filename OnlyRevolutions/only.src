@@ -1,2 +1,14 @@
-write edits here.
+<script type="text/javascript" src="xbMarquee.js"></script>
+<script type="text/javascript">
+<!--
+  //set the marquee parameters
+	function init() { up_marquee.start(); }
+	var up_marquee_Text = 'Nov 22 1863/nThe Cause.n/-Abolition slavery,/nconfiscation of property,/nand territorial vassalage./nBattle Above/nThe Clouds./n—Chickamauga!/nJohn Hunt Morgan flees./nCapitol Dome./nHemolytc Streptococcus./nAmnesty./nMeridian./nCSS HL Hunley./nUlysses S Grant./nCopperheads./nFort Pillow massacre./n<i>--mostest.</i>/nPrisoner exchange ends./nJoe goes./nBattle of the Wilderness./n<i>--hunt to the death./n—Gi back General Lee./n—No turning back.</i>/nMule Shoe./n<i>--all summer.</i>/nBloody Angle of/nSpotsylvania./nJeb’s Tavern./nCold Harbor./n<i>--This is murder.</i>Jubal Early./nFugitive Slave Laws./n<i>--down, you fool.</i>/nCrater./n<i>--Full Speed Ahead.</i>/nAtlanta Fairly Won.';
+	var up_marquee_Direction = 'up';
+	var up_marquee_Contents='<span style="font-family:Tempo;font-size:12pt;white-space:nowrap;">' + up_marquee_Text + '</span>';
+	up_marquee = new xbMarquee('up_marquee', '100px', '400px', 6, 100, up_marquee_Direction, 'scroll', up_marquee_Contents);
+	window.setTimeout( init, 200);
+-->
+</script>
+
 
