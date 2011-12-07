@@ -2,7 +2,7 @@
 *author: Danielewski & ENGL 457
 *purpose: /ʌnon/
 */
-	<*program: /bigɪn/
+<parameters>	<*program: /bigɪn/
 {		OPT. flip//reverse//bigɪn}
 
 #import "American History 1863-2063" //narrated by:
@@ -16,6 +16,7 @@ var OR = 0
 while ( Sam = 16, Hailey = 16, OR < infin.){
 	console.log ( "OR is now" + OR++);
 	OR} //Trying to make a loop so the book reads continuously
+</parameters>
 
 					
 <script type="text/javascript" src="xbMarquee.js"></script>
