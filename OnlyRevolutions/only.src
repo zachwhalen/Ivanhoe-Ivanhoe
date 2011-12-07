@@ -6,7 +6,7 @@
 {		OPT. flip//reverse//bigɪn}
 
 #import "American History 1863-2063" //narrated by:
-{						OPT. sam:/sæm/ |||| hailey:/heli/ }
+{						OPT. <green>sam:/sæm/</green> |||| <yellow>hailey:/heli/</yellow> }
 
 var OR = "Only Revolutions"
 var Sam = "Sam"
@@ -18,7 +18,12 @@ while ( Sam = 16, Hailey = 16, OR < infin.){
 	OR} //Trying to make a loop so the book reads continuously
 </parameters>
 
-					
+character class:: human
+	>cmmn_attr> <green>sam</green> + <yellow>hailey</yellow>
+=		{arrogant, innocent, lustful, loving, hungry}
+					^	+	^mænə= honey {swit}
+
+
 <script type="text/javascript" src="xbMarquee.js"></script>
 <script type="text/javascript">
 <!--
