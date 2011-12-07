@@ -13,7 +13,7 @@ var Sam = "Sam"
 var Hailey = "Hailey" //establishing variables
 
 var OR = 0
-while ( OR < infin.){
+while ( Sam = 16, Hailey = 16, OR < infin.){
 	console.log ( "OR is now" + OR++);
 	OR} //Trying to make a loop so the book reads continuously
 
