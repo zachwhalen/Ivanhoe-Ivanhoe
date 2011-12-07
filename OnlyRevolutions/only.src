@@ -8,6 +8,15 @@
 #import "American History 1863-2063" //narrated by:
 {						OPT. sam:/sæm/ |||| hayley:/heli/ }
 
+var OR = "Only Revolutions"
+var Sam = "Sam"
+var Hailey = "Hailey" //establishing variables
+
+var OR = 0
+while ( OR < infin.){
+	console.log ( "OR is now" + OR++);
+	OR} //Trying to make a loop so the book reads continuously
+
 					
 <script type="text/javascript" src="xbMarquee.js"></script>
 <script type="text/javascript">
