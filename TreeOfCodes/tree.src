@@ -35,8 +35,9 @@ ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
       line="Jonathan Safran Foer"
           }//changes the author's name whenever it comes across it
   }
-
-
+Class Father =
+Class Mother = isOutOfHouse; isAngry; isFeelingGuilty
+Class Narrator =
 
   
 }//end of main
