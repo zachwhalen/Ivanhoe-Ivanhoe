@@ -1,7 +1,8 @@
 class Human
 
-  attr_accessor :mood, :hunger  #There's probly more for Humans than Cats, add attributes
+  attr_accessor :mood, :hunger, :memory  #There's probly more for Humans than Cats, add attributes
   encoder = Encoder.new
+  letters[]
 
   def speak(utterance)
     prints utterance
@@ -20,6 +21,17 @@ class Human
 
   def feedTo(fish)
     fish.setPrey(self)
+  end
+
+  def mail(letters)
+    for each(letters) |s| do
+      @letters.add(s)
+    end
+    return @letters
+  end
+
+  def remembers?
+    return @memory
   end
 
 end

@@ -1,13 +1,26 @@
-//Dramatis Personae
-ericSanderson = new Human
-ian = new Cat
-gavin = new Cat
-gavin.delete
-ward = new Mycroft
-ludo = new Ludovician
+boolean isRawShark = false
 
-ericSanderson.hide(encode("diaryFragments.txt"))
+while(isRawShark==false) {
 
-ericSanderson.feedTo(ludo)
+  //Dramatis Personae
+  ericSanderson = new Human
+  ian = new Cat
+  gavin = new Cat
+  gavin.delete
+  ward = new Mycroft
+  ludo = new Ludovician
+  
+  
+  
+  ericSanderson.hide(encode("diaryFragments.txt"))
+  letters[] = ericSanderson.mail("letters.txt")
 
+  ericSanderson.feedTo(ludo)
+  while(!ericSanderson.remembers?) {
+    for(int i=0; i<letters.length; i++) {
+      ericSanderson.recieve(letter[i]
+      
+    }
 
+  }
+}
