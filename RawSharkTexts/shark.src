@@ -4,9 +4,11 @@ ian = new Cat
 gavin = new Cat
 gavin.delete
 ward = new Mycroft
+ludo = new Ludovician
 
+ericSanderson.hide(encode("diaryFragments.txt"))
 
-
+ericSanderson.summon(ludo)
 ericSanderson.forget
 
 
