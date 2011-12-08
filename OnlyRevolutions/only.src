@@ -4,6 +4,7 @@
 */
 <parameters>	<*program: /bigɪn/
 {		OPT. flip//reverse//bigɪn}
+			180.180.180.180.infinite
 
 #import "American History 1863-2063" //narrated by:
 {						OPT. <green>sam:/sæm/</green> |||| <yellow>hailey:/heli/</yellow> }
@@ -22,7 +23,12 @@ character class:: human
 	>cmmn_attr> <green>sam</green> + <yellow>hailey</yellow>
 =		{arrogant, innocent, lustful, loving, hungry}
 					^	+	^mænə= honey {swit}
-
+		
+character class:: /ʌnon/
+			<defend/avoid/escape>
+	>cmmn_attr> THEM:/ðɪm/ ||||  the.creep:/ðʌ kɹip/
+=		{raped. defied. tried. lynched. staked. despised}
+		 {/slapped. mauled. bound. bludgeoned. fried. whacked}
 
 <script type="text/javascript" src="xbMarquee.js"></script>
 <script type="text/javascript">
