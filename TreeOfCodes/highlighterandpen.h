@@ -8,3 +8,7 @@
 *sense of human feeling (shown throughout characters of mother/father/narr)
 
 
+Public{
+    poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
+    
+}
