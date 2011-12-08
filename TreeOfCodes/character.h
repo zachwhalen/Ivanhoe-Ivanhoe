@@ -47,5 +47,11 @@ Public{
   bool is CallingForHelp() const;
   //used when character is calling for help
   //used when character is calling for help and false when they're not
+  bool is AbsentMinded() const;
+  //used when character is absentminded
+  //used when character is absentminded and false when they're not
+  bool is Motionless() const;
+  //used when character is motionless
+  //used when character is motionless and false when they're not
   
 }
