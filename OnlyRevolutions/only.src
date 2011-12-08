@@ -35,6 +35,16 @@ character class:: human
 	up_marquee = new xbMarquee('up_marquee', '100px', '400px', 6, 100, up_marquee_Direction, 'scroll', up_marquee_Contents);
 	window.setTimeout( init, 200);
 -->
+
+<script type="text/javascript">
+
+var Haley = new Array();
+Haley["nature"] = "Atlas Mountain Cedars"; "Trembling Aspens"; "Tamarack Pines"; "Almond Willows"; "Tag Alders"; "Grass"; "Licorice and Lilacs"; "Bull Thistle"; "Mints"; "Avalanche Lilies"; "Poppy"; "Douglas Fir"; "Western Flax"; "Daisies and Saxifrage"; "Charlock Mustard"; "Choke Cherry"; "Mountain Avens"; "Tansy and Tarragon"; "Stave Oaks"; "Clover and Snowberries"; "Matrimony Vine"; Buttercups and Rollers"; "Yarrow and Asters"; "Wild Chives"; "Pipsissewa"; "Dewberries and Speedwell"; "Meadow Satisfy"; "Milkvetch and Iris"; "Hemlocks"; "Solomon's ZigZag"; "Walnut and Hyacinth"; "Huckleberry"; "Jimson Weed";
+
+var Sam = new Array();
+Sam["animals"] = "Bald Eagles"; "Golden Bears"; "American Beavers"; "Foal"; "Coyotes"; "Field Cricket"; "Mule Deers"; "Cougars"; "Fire Ants"; "Kingbirds"; "Badgers"; "Monarchs"; "Brook Trout"; "Starlings"; "Boreal Toads and Milk Snakes"; "Yearlings"; "Mule"; "Wasps and Cottontails"; "Martins"; "Donkey"; "Pony"; "Horse"; "Bighorn Sheep and Worms"; "Woodpeckers"; "Crows"; "Mallards and Hawks"; "Preble's Shrew"; "Ravens"; "Fleas and Ticks"; "Deer Mice"; "Fireflies and Antelopes"; "Shorthorned Lizards"; "Brant Geese"; " American Wigeons"; "Angus and Herefords"; "Magpies and Chickadees";
+
+
 </script>
 
 
