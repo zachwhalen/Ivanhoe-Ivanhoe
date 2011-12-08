@@ -41,6 +41,11 @@ Public{
   bool isLight() const;
   //used when character is light
   //used when character is light and false when they're not
-  
+  bool isAwake() const;
+  //used when character is awake
+  //used when character is awake and false when they're not
+  bool is CallingForHelp() const;
+  //used when character is calling for help
+  //used when character is calling for help and false when they're not
   
 }
