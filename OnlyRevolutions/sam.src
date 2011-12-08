@@ -1,3 +1,7 @@
+if (Sam = 16){
+  text.replace "o", "color green"
+  }
+
 <script type="text/javascript">
 
 var Sam = new Array();
