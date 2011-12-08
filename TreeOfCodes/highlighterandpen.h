@@ -10,9 +10,18 @@
 #import "treeofcodes.h"
 #import "StreetOfCrocodiles.h"
 #include <ofstream> //ofstream lets you read and write to files
-
+/* Okay, put the words in the following format in listOfWords:
+word$word$word
+This way I can use a search function to go through the list more easily.  No spaces please!
+*/
+string listOfWords =/*put the words here*/ ;
 Public{
     string poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
+    for (int i=0; i < poeticWords.length; i++){
+        string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    }
     ifstream in("StreetofCrocodiles.h"); //Reads in the text file
     While (inFile){
     String line=br.readLine();
