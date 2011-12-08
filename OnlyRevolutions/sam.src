@@ -1,0 +1,6 @@
+<script type="text/javascript">
+
+var Sam = new Array();
+Sam["animals"] = "Bald Eagles"; "Golden Bears"; "American Beavers"; "Foal"; "Coyotes"; "Field Cricket"; "Mule Deers"; "Cougars"; "Fire Ants"; "Kingbirds"; "Badgers"; "Monarchs"; "Brook Trout"; "Starlings"; "Boreal Toads and Milk Snakes"; "Yearlings"; "Mule"; "Wasps and Cottontails"; "Martins"; "Donkey"; "Pony"; "Horse"; "Bighorn Sheep and Worms"; "Woodpeckers"; "Crows"; "Mallards and Hawks"; "Preble's Shrew"; "Ravens"; "Fleas and Ticks"; "Deer Mice"; "Fireflies and Antelopes"; "Shorthorned Lizards"; "Brant Geese"; " American Wigeons"; "Angus and Herefords"; "Magpies and Chickadees";
+
+</script>
