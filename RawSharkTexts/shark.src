@@ -8,7 +8,6 @@ ludo = new Ludovician
 
 ericSanderson.hide(encode("diaryFragments.txt"))
 
-ericSanderson.summon(ludo)
-ericSanderson.forget
+ericSanderson.feedTo(ludo)
 
 

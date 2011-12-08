@@ -1,6 +1,7 @@
 class Human
 
   attr_accessor :mood, :hunger  #There's probly more for Humans than Cats, add attributes
+  encoder = Encoder.new
 
   def speak(utterance)
     prints utterance
@@ -12,5 +13,13 @@ class Human
     end #Else, it is ignored
   end
 
+  def forget
+    mood=nil
+    hunger=nil
+  end
+
+  def feedTo(fish)
+    fish.setPrey(self)
+  end
 
 end
