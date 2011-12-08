@@ -9,7 +9,7 @@
 
 #import "treeofcodes.h"
 #import "StreetOfCrocodiles.h"
-#import <ofstream> //ofstream lets you read and write to files
+#include <ofstream> //ofstream lets you read and write to files
 
 Public{
     string poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
@@ -33,6 +33,7 @@ Public{
       }
       
       }
+      myfile.close(); //closes the treeofcodes.h file we were writing to
   }
       
 }
