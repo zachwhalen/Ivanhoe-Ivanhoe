@@ -3,6 +3,7 @@
 * Purpose: 
 * Last edited: 12/5/11
 */
+#include <ofstream> //lets you read and write to files
 #import "streetofcrocodiles.txt" //this the original text of Street of Crocodiles.
 #import "treeofcodes.txt" //this the orriginal text of Tree of Codes.
 #import "highlighterandpen.h" //This is the class that allows user to edit a document
@@ -12,6 +13,8 @@ character Mother;
 character Father; //Creates the Mother and Father characters from the character class
 character Narrator; //creates the Narrator character
 highlighterandpen Foer;
+string valueOfSelectWords; //words that have value
+string poetry; //words that are poetic
 string streetofcrocodiles = ifstream in("Streeofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
 var poetry=valueOfSelectWords; //this establishes the subjective value of specific words within a text
       if (streetofcrocodiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes

@@ -9,7 +9,7 @@
 
 #import "treeofcodes.h"
 #import "StreetOfCrocodiles.h"
-#import <ifstream>
+#include <ofstream> //ofstream lets you read and write to files
 
 Public{
     string poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
@@ -28,10 +28,12 @@ Public{
   for (int i=0; i<streetOfCrocodilesLines.length; i++){//goes through entire story
       for (int x=0; x<poeticWords.length; x++){//goes through the list of poetic words 
       if (streetOfCrocodilesLines[i].contains(poeticWords[x])){//if the line contains the poeticword
-          write poeticWords[x] to treeofcodes.h; //how do I say this???
+          myfile.open("treeofcodes.h"); //opens treeofcodes.h so we can write to it
+          myfile<<poeticWords[x]; //writes poetic words to treeofcodes.h
       }
       
       }
+      myfile.close(); //closes the treeofcodes.h file we were writing to
   }
       
 }
