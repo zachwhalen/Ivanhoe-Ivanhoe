@@ -1,4 +1,3 @@
-
 August
 Visitation
 Birds
@@ -1234,8 +1233,9 @@ societies lifting the veil on tantalizing and unknown mysteries.
    I so rarely had the occasion to visit these shops-especially with a small but 
 sufficient amount of money in my pocket-that I could not forgo the opportunity I 
 had now, in spite of the important mission entrusted to me.
-   According to my calculations I ought to turn into a narrow lane and pass two or three side streets in order to reach the street of the night shops. This would take 
-me even further from home, but by cutting across Saltworks Street, I could make 
+   According to my calculations I ought to turn into a narrow lane and pass two 
+or three side streets in order to reach the street of the night shops. This would
+take me even further from home, but by cutting across Saltworks Street, I could make 
 good the delay.
    Lent wings by my desire to visit the cinnamon shops, I turned into a street I 
 knew and ran rather than walked, anxious not to lose my way. I passed three or four 
