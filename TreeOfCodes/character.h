@@ -44,14 +44,20 @@ Public{
   bool isAwake() const;
   //used when character is awake
   //used when character is awake and false when they're not
-  bool is CallingForHelp() const;
+  bool isCallingForHelp() const;
   //used when character is calling for help
   //used when character is calling for help and false when they're not
-  bool is AbsentMinded() const;
+  bool isAbsentMinded() const;
   //used when character is absentminded
   //used when character is absentminded and false when they're not
-  bool is Motionless() const;
+  bool isMotionless() const;
   //used when character is motionless
   //used when character is motionless and false when they're not
+  bool isAware() const;
+  //used when character is Aware (of their surroundings)
+  //used when character is Aware (of their surroundings) and false when they're not
+  bool isPortrayal() const;
+  //used when character is Portraying (their surroundings)
+  //used when character is Portraying (their surroundings) and false when they're not
   
 }
