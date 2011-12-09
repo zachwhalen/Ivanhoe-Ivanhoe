@@ -13,7 +13,7 @@ strRLabel = "<img src=\"image of circle with two lines.gif\",
 var OR = "Only Revolutions"
 var Sam = "Sam"
 var Hailey = "Hailey" //establishing variables
-
+var Dream = "<i>we are it.</i>"
 var OR = 0
 while ( Sam = 16, Hailey = 16, OR < infin.){
 	console.log ( "OR is now" + OR++);
@@ -31,19 +31,24 @@ character class:: /ʌnon/
 =		{raped. defied. tried. lynched. staked. despised}
 		 {/slapped. mauled. bound. bludgeoned. fried. whacked}
 
-<script type="text/javascript" src="xbMarquee.js"></script>
-<script type="text/javascript">
-<!--
-  //set the marquee parameters
-	function init() { up_marquee.start(); }
-	var up_marquee_Text = 'Nov 22 1863/nThe Cause.n/-Abolition slavery,/nconfiscation of property,/nand territorial vassalage./nBattle Above/nThe Clouds./n—Chickamauga!/nJohn Hunt Morgan flees./nCapitol Dome./nHemolytc Streptococcus./nAmnesty./nMeridian./nCSS HL Hunley./nUlysses S Grant./nCopperheads./nFort Pillow massacre./n<i>--mostest.</i>/nPrisoner exchange ends./nJoe goes./nBattle of the Wilderness./n<i>--hunt to the death./n—Gi back General Lee./n—No turning back.</i>/nMule Shoe./n<i>--all summer.</i>/nBloody Angle of/nSpotsylvania./nJeb’s Tavern./nCold Harbor./n<i>--This is murder.</i>Jubal Early./nFugitive Slave Laws./n<i>--down, you fool.</i>/nCrater./n<i>--Full Speed Ahead.</i>/nAtlanta Fairly Won.';
-	var up_marquee_Direction = 'up';
-	var up_marquee_Contents='<span style="font-family:Tempo;font-size:12pt;white-space:nowrap;">' + up_marquee_Text + '</span>';
-	up_marquee = new xbMarquee('up_marquee', '100px', '400px', 6, 100, up_marquee_Direction, 'scroll', up_marquee_Contents);
-	window.setTimeout( init, 200);
--->
-
-<script type="text/javascript">
+<DIV id="scroll" style="width:250px; height:550px; overflow:hidden">
+<paragraph align = right>
+var str = "Nov 22 1863";
+document.write(str.fontcolor("#800080"));
+</script></br>The Cause.</br><i>-Abolition slavery,</br>confiscation of property,</br>and territorial vassalage.</i></br>Battle Above</br>The Clouds.</br>—Chickamauga!</br>John Hunt Morgan flees.</br>Capitol Dome.</br>Hemolytc Streptococcus.</br>Amnesty.</br>Meridian.</br>CSS HL Hunley.</br>Ulysses S Grant.</br>Copperheads.</br>Fort Pillow massacre.</br><i>--mostest.</i></br>Prisoner exchange ends.</br>Joe goes.</br>Battle of the Wilderness.</br><i>--hunt to the death.</br>—Go back General Lee.</br>—No turning back.</i></br>Mule Shoe.</br><i>--all summer.</i></br>Bloody Angle of</br>Spotsylvania.</br>Jeb’s Tavern.</br>Cold Harbor.</br><i>--This is murder.</i></br>Jubal Early.</br>Fugitive Slave Laws.</br><i>--down, you fool.</i></br>Crater.</br><i>--Full Speed Ahead.</i></br>Atlanta Fairly Won.</br></br><script type="text/javascript">
+var str = "March 3 1878";
+document.write(str.fontcolor("#800080"));
+</script></br>Treaty of San Stefano &</br>Russo-Ottoman War.</br>150 Sheepeaters.</br>Day Star’s Derby.</br>Karl Nobling & Emperor</br>Wilhelm I of Germany.</br></br><i>--Let all our</br>dealing with.</i></br></br>Kansas</br>& tge Exodusters.</br>Chester A Arthur: Port</br>Collector. Treaty of</br>Berlin. American Bar</br>Association.</br>George Leslie’s</br>Manhattan Savings.</br>Democrats</br>regain control.</br>Southern Democrats</br>& political murders.</br></br>Bronze John,over</br>14,000 go by wagon.</br>Greenbacks & gold.</br></br>Albert Michelson’s</br>speed. Deadwood &</br>Martha Jane Cannary.</br>Pope bicycles.</br>Alexandel Winchell</br>ousted. Cuban cigars</br>flee to Florida.</br>Chinese thousands migrate.</br>Corn Killer.</br>Auburn Milking.</br></br><script type="text/javascript">
+var str = "Dec 12 1892";
+document.write(str.fontcolor("#800080"));
+</script></br>Krakow’s Pan-Slavic.</br>Painter’s cap.José Martí.</br>Texas Boll Weevil.</br>Muir & Sierra.</br>1,400 lynchings. Marquis’s Fife & Variety.</br>Polygamist amnesty.</br>Boston overthrows</br>Liluokalani.</br>Philadelphia Railroad.</br>Diplomatic</br>Appropriations Act.</br>Gerald.</br>24th. French Guinea</br>& Ivory Coast. Anti-Trust</br>Amalgamated.</br>Boston Bells Chicago.</br>8,000 business fail,</br>1 million jobless.</br>Bowen Burke’s long tie.</br>Blount’s dismissal.</br>Alexander I. 600 Banks.</br>74 Railroads.999’s</br>112.5 MPH. Kunze’s</br>Derby. Geary Exclusion.</br>American Railway Union.</br>Debs. Altgeld’s pardon.</br>Crash.</br><i>--Frontier’s over.</i></br>/<br>France’s Spain></br>Minneapolis blaze.</br>Charleston & Savannah</br>wave, 1,000 go.</br>Goldman arrested.</br></br><i>--arouse.</i>'; "
+onload=function scrollDivDown(){
+el=document.getElementById("scroll")
+clearTimeout(timerDown)
+el.scrollTop+=step
+timerDown=setTimeout("scrollDivDown()",10)
+if(el.scrollTop>=el.scrollHeight-el.offsetHeight){
+el.scrollTop=0}</paragraph></script></DIV>
 
 var Haley = new Array();
 Haley["nature"] = "Atlas Mountain Cedars"; "Trembling Aspens"; "Tamarack Pines"; "Almond Willows"; "Tag Alders"; "Grass"; "Licorice and Lilacs"; "Bull Thistle"; "Mints"; "Avalanche Lilies"; "Poppy"; "Douglas Fir"; "Western Flax"; "Daisies and Saxifrage"; "Charlock Mustard"; "Choke Cherry"; "Mountain Avens"; "Tansy and Tarragon"; "Stave Oaks"; "Clover and Snowberries"; "Matrimony Vine"; Buttercups and Rollers"; "Yarrow and Asters"; "Wild Chives"; "Pipsissewa"; "Dewberries and Speedwell"; "Meadow Satisfy"; "Milkvetch and Iris"; "Hemlocks"; "Solomon's ZigZag"; "Walnut and Hyacinth"; "Huckleberry"; "Jimson Weed"; "Hound's Tongue"; "Spreading Dogbane"; "Betony"; "Wheat"; "Barley"; "Peaches"; "American Plums";
@@ -52,7 +57,7 @@ var Sam = new Array();
 Sam["animals"] = "Bald Eagles"; "Golden Bears"; "American Beavers"; "Foal"; "Coyotes"; "Field Cricket"; "Mule Deers"; "Cougars"; "Fire Ants"; "Kingbirds"; "Badgers"; "Monarchs"; "Brook Trout"; "Starlings"; "Boreal Toads and Milk Snakes"; "Yearlings"; "Mule"; "Wasps and Cottontails"; "Martins"; "Donkey"; "Pony"; "Horse"; "Bighorn Sheep and Worms"; "Woodpeckers"; "Crows"; "Mallards and Hawks"; "Preble's Shrew"; "Ravens"; "Fleas and Ticks"; "Deer Mice"; "Fireflies and Antelopes"; "Shorthorned Lizards"; "Brant Geese"; " American Wigeons"; "Angus and Herefords"; "Magpies and Chickadees";
 
 var OR = new Array()
-OR["cars"] = //need to add cars
++OR["cars"] = "Ford 999 Racer"; "Oldsmobile Roadster"; "Audi WZ"; "Speedwell MC"; "OWeGo Cyclecar"; "Commonwealth Tourister"; "Hupmobile 322"; "Chevrolet EC"; "VW V2"; "American Bantam"; "Shelby Mustang"; "Oldsmobile Toronado"; "Cord 8/10"; "Pontiac GTO"; "Corvair Monza"; "Corvette Sting Ray"; "Firebird 400"; 
 
 </script>
 
