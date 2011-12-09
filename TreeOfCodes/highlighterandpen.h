@@ -17,10 +17,34 @@ This way I can use a search function to go through the list more easily.  No spa
 string listOfWords =/*put the words here*/ ;
 Public{
     string poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
-    for (int i=0; i < poeticWords.length; i++){
+    for (int i=0; i < poeticWords.length; i++){}
         string tempWord = listOfWords.getLineBefore($);
         tempWord = poeticWords[i];
         delete listOfWords.getLineBefore($);
+    eyes (int i=0; i <poeticWords.length; i++) {
+         string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    shadows (int i=0; i<poeticWords.length; i++) {
+         string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    anger (int i=0; i<poeticWords.length; i++) {
+         string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    silence (int i=0; i<poeticWords.length; i++) {
+         string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    naked (int i=0; i<poeticWords.length; i++) }
+         string tempWord = listOfWords.getLineBefore($);
+        tempWord = poeticWords[i];
+        delete listOfWords.getLineBefore($);
+    }
+    }
+    }
+    }
     }
     ifstream in("StreetofCrocodiles.h"); //Reads in the text file
     While (inFile){
