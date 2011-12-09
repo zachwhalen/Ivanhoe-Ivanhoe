@@ -56,7 +56,7 @@ Public{
   bool isAware() const;
   //used when character is Aware (of their surroundings)
   //used when character is Aware (of their surroundings) and false when they're not
-  bool isPortrayal() const;
+  bool isPortraying() const;
   //used when character is Portraying (their surroundings)
   //used when character is Portraying (their surroundings) and false when they're not
   
