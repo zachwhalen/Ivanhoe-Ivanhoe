@@ -8,3 +8,9 @@ var Hailey./heli/ = new Array();
 Hailey./heli/["nature"] = "Atlas Mountain Cedars"; "Trembling Aspens"; "Tamarack Pines"; "Almond Willows"; "Tag Alders"; "Grass"; "Licorice and Lilacs"; "Bull Thistle"; "Mints"; "Avalanche Lilies"; "Poppy"; "Douglas Fir"; "Western Flax"; "Daisies and Saxifrage"; "Charlock Mustard"; "Choke Cherry"; "Mountain Avens"; "Tansy and Tarragon"; "Stave Oaks"; "Clover and Snowberries"; "Matrimony Vine"; Buttercups and Rollers"; "Yarrow and Asters"; "Wild Chives"; "Pipsissewa"; "Dewberries and Speedwell"; "Meadow Satisfy"; "Milkvetch and Iris"; "Hemlocks"; "Solomon's ZigZag"; "Walnut and Hyacinth"; "Huckleberry"; "Jimson Weed"; "Hound's Tongue"; "Spreading Dogbane"; "Betony"; "Wheat"; "Barley"; "Peaches"; "American Plums";
 
 </script>
+Hailey["love"]= "Compassion"
+var Sam = "Sam"
+var Hailey = "Hailey"
+if(Sam = 31) {
+text.replace "Them", "Hailey"
+<script type = "But then Them returns/javascript">
