@@ -16,7 +16,7 @@ character Narrator; //creates the Narrator character
 highlighterandpen Foer; //creates the author/his editing choices
 
 
-string streetofcrocodiles = ifstream in("Streeofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
+string streetofcrocodiles = ifstream in("streetofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
 string message = "Transform Street of Crocodiles into Tree of Codes?";
 confirm(message); //asks for confirmation of shift    
 
