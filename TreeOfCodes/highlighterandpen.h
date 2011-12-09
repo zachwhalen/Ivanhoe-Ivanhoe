@@ -1,53 +1,18 @@
-/* Things we want to keep
-* Keep all mother/fathers/children
-* Alone/darkness/empty
-* Keep a variable called poetic or flow or something that keeps track */
-*use of allegories (weeks pass like boats...)
-* eyes/half (closed,naked,animal,shameless)/silence
-* shadows/anger
-*sense of human feeling (shown throughout characters of mother/father/narr)
 
 #import "treeofcodes.h"
 #import "StreetOfCrocodiles.h"
 #include <ofstream> //ofstream lets you read and write to files
-/* Okay, put the words in the following format in listOfWords:
-word$word$word
-This way I can use a search function to go through the list more easily.  No spaces please!
-*/
-string listOfWords =/*put the words here*/ ;
+
+string listOfWords =eyes$shadows$anger$silence$naked;//list of words to be considered poetic
 Public{
     string poeticWords[1000] = new array[1000]; //this creates a corpus of applicable words and stores them in a list
-    for (int i=0; i < poeticWords.length; i++){}
-        string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    eyes (int i=0; i <poeticWords.length; i++) {
-         string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    shadows (int i=0; i<poeticWords.length; i++) {
-         string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    anger (int i=0; i<poeticWords.length; i++) {
-         string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    silence (int i=0; i<poeticWords.length; i++) {
-         string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    naked (int i=0; i<poeticWords.length; i++) }
-         string tempWord = listOfWords.getLineBefore($);
-        tempWord = poeticWords[i];
-        delete listOfWords.getLineBefore($);
-    }
-    }
-    }
-    }
+    for (int i=0; i < poeticWords.length; i++){}//goes through the words in the listOfWords
+        string tempWord = listOfWords.getLineBefore($);//gets the word before the '$' delimiter
+        tempWord = poeticWords[i];//adds the word to the array of poeticWords
+        delete listOfWords.getLineBefore($);//deletes the word from the string
     }
     ifstream in("StreetofCrocodiles.h"); //Reads in the text file
-    While (inFile){
+    While (inFile){//while the file isn't over
     String line=br.readLine();
     string streetOfCrocodilesLines[1000000] = new array[100000];//stores the whole street of crocodiles text line by line
     if (line=="street of crocodiles" or line=="Street of Crocodiles"){
