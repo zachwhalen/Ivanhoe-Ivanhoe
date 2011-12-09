@@ -29,7 +29,7 @@ Foer.convertsStreetToTree(streetofcrocodiles);//Calls the function in highlighte
 /* From here on we have the story itself */
 Class Father = isSobbing; isCallingForHelp; isMotionless; isSad; isLonely; isMissingMother; isInCorner;
 Class Mother = isOutOfHouse; isAngry; isFeelingGuilty;
-Class Narrator = isHappy; isLonely; isGuilty; isFeelingFree; isOutOfHouse; IsMissingMother; isWorried; isResentful; isLight; isAwake;
+Class Narrator = isHappy; isLonely; isGuilty; isFeelingFree; isOutOfHouse; isMissingMother; isWorried; isResentful; isLight; isAwake; isAware; isPortraying;
 
   
 }//end of main
