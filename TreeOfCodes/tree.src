@@ -1,6 +1,7 @@
 /*Program: Tree Of Codes
 * Author: Foer & ENGL 457
-* Purpose: 
+* Purpose: Creates the novel "Tree of Codes" from "Street of Crocodiles".  The program also does basic storytelling functions
+* using the Mother, Father, and Narrator characters.
 * Last edited: 12/5/11
 */
 #include <ofstream> //lets you read and write to files
@@ -12,29 +13,20 @@
 character Mother;
 character Father; //Creates the Mother and Father characters from the character class
 character Narrator; //creates the Narrator character
-highlighterandpen Foer;
-string valueOfSelectWords; //words that have value
-string poetry; //words that are poetic
+highlighterandpen Foer; //creates the author/his editing choices
+
+
 string streetofcrocodiles = ifstream in("Streeofcrocodiles.txt"); //creates a value for streetofcrocodiles to be manipulated
-var poetry=valueOfSelectWords; //this establishes the subjective value of specific words within a text
-      if (streetofcrocodiles = poetry){main} //extracts valuable portions of street of crocodiles and contributes to tree of codes
 string message = "Transform Street of Crocodiles into Tree of Codes?";
 confirm(message); //asks for confirmation of shift    
 
 int main()
 {   //main is the function that holds the body of the work.  It calls other functions and does small-scale operations
 
+Foer.usesPoeticLicense(streetofcrocodiles);//Calls the function in highlighterandpen that picks out poetic words
+Foer.convertsStreetToTree(streetofcrocodiles);//Calls the function in highlighterandpen that changes the key phrasing
 
-ifstream in("StreetofCrocodiles.txt"); //Reads in the text file
-  While (inFile){
-    String line=br.readLine();
-    if (line=="street of crocodiles" or line=="Street of Crocodiles"){
-      line="tree of codes"; //changes "street of crocodiles" to "tree of codes whenever it finds it"
-    }
-    if (line=="Bruno Schulz"){
-      line="Jonathan Safran Foer"
-          }//changes the author's name whenever it comes across it
-  }
+/* From here on we have the story itself */
 Class Father =
 Class Mother = isOutOfHouse; isAngry; isFeelingGuilty
 Class Narrator =
