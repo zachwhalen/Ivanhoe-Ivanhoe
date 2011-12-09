@@ -27,24 +27,24 @@ Foer.usesPoeticLicense(streetofcrocodiles);//Calls the function in highlighteran
 Foer.convertsStreetToTree(streetofcrocodiles);//Calls the function in highlighterandpen that changes the key phrasing
 
 /* From here on we have the story itself */
-Class Father =
-Class Mother = isOutOfHouse; isAngry; isFeelingGuilty
-Class Narrator =
+Class Father = isSobbing; isCallingForHelp; isMotionless; isSad; isLonely; isMissingMother; isInCorner;
+Class Mother = isOutOfHouse; isAngry; isFeelingGuilty;
+Class Narrator = isHappy; isLonely; isGuilty; isFeelingFree; isOutOfHouse; IsMissingMother; isWorried; isResentful; isLight; isAwake;
 
   
 }//end of main
 
 string confirm(string message){ //this function confirms the action of the user in converting SOC to TOC
-      cout >> message;
+      cout << message;
       string response = ""; //holds the response from the user
-      cin << response;
+      cin >> response;
       for (i=0; i<response.length; i++){
       response[i]=response.toLower[i];
       }//puts response all in lower case so that the code is more concise and efficient
       if (response == "yes"){ //the "||" symbol basically means and/or, so if the message was "yes" OR "Yes", it's all gravy
             cout >> "Beginning transformation...";
       }
-      if (reponse == "no"){
+      if (response == "no"){
             cout >> "ABORT ABORT";
       }
       else {
